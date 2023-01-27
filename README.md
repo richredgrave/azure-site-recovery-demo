@@ -34,7 +34,7 @@ Azure Bastion has been deployed into the primary region virtual network. Both th
 
 Click the Deploy To Azure button below.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmattfeltonma%2Fazure-site-recovery-demo%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FFulforce%2Fazure-site-recovery-demo%2Fmain%2Fazuredeploy.json)
 
 ### Installation with Azure CLI
 1. Set the following variables:
@@ -51,7 +51,7 @@ Click the Deploy To Azure button below.
 
 3. Deploy the lab using the command (tags parameter is optional): 
 
-   * **az deployment sub create --name $DEPLOYMENT_NAME --location $DEPLOYMENT_LOCATION --template-uri https://github.com/Fulforce/azure-site-recovery-demo/blob/8c09c4c38407b4a2f89324f24643a7418a8abd91/azuredeploy.json --parameters priLocation=$PRI_LOCATION secLocation=$SEC_LOCATION vmAdminUsername=$ADMIN_USER_NAME tags='{"mytag":"value"}'**
+   * **az deployment sub create --name $DEPLOYMENT_NAME --location $DEPLOYMENT_LOCATION --template-uri https://raw.githubusercontent.com/Fulforce/azure-site-recovery-demo/main/azuredeploy.json --parameters priLocation=$PRI_LOCATION secLocation=$SEC_LOCATION vmAdminUsername=$ADMIN_USER_NAME tags='{"mytag":"value"}'**
 
 4.  You will be prompted to provide a password for the local administrator of the virtual machine.
 
