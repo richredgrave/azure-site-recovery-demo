@@ -8,11 +8,6 @@
                 "description": "The primary region to deploy resources."
             },
             "allowedValues": [
-                "centralus",
-                "eastus",
-                "eastus2",
-                "southcentralus",
-                "westus2",
                 "northeurope",
                 "westeurope"
             ]
@@ -23,11 +18,6 @@
                 "description": "The secondary region region to deploy resources to. This should be the paired region of the primary region to support the cross region restore functionality"
             },
             "allowedValues": [
-                "centralus",
-                "eastus",
-                "eastus2",
-                "southcentralus",
-                "westus2",
                 "northeurope",
                 "westeurope"
             ]
