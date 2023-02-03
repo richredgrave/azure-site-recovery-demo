@@ -26,7 +26,8 @@
             "type": "string",
             "metadata": {
                 "description": "Administrator name for VMs that are created"
-            }
+            },
+            "defaultValue": "vmadmin"
         },
         "vmAdminPassword": {
             "type": "securestring",
