@@ -11,6 +11,8 @@ The exercises in this repository demonstrate the core capabilities of Azure Site
 
 Your journey does not need to stop here! An additional VM named vmwpri2ncffe has been provided to you with this lab. You can use this machine to practice enabling Azure Site Recovery for a new virtual machine.
 
+Also, how about taking a look at enabling Azure Site Recovery using Azure Policy. This is a great way to manage replication and enrolment at scale. [Enable ASR for your VMs using Azure Policy](https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy)
+
 
 
 
