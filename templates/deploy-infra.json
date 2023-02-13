@@ -89,7 +89,7 @@
         "diagnosticApiVersion": "2017-05-01-preview",
         "networkApiVersion": "2020-07-01",
         "resourcesApiVersion": "2020-06-01",
-        "availabilityZone": "1",
+        "availabilityZone": "2",
         "bastionName": "[concat('bst', parameters('uniqueData'))]",
         "bastionPublicIpName": "[concat('pip-bst', parameters('uniqueData'))]",
         "bastionSubnetName": "AzureBastionSubnet",
